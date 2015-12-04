@@ -53,9 +53,9 @@ final class Manager implements ManagerInterface, FactoryManagerInterface
 	 * Parse a JSON API string into an object
 	 *
 	 * @param   string $string The JSON API string
-	 * @return  Art4\JsonApiClient\AccessInterface
+	 * @return  \Art4\JsonApiClient\AccessInterface
 	 *
-	 * @throws  Art4\JsonApiClient\Exception\ValidationException If $string is not valid JSON API
+	 * @throws  \Art4\JsonApiClient\Exception\ValidationException If $string is not valid JSON API
 	 */
 	public function parse($string)
 	{

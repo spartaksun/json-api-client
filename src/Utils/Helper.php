@@ -17,7 +17,7 @@ final class Helper
 	/**
 	 * @param string $json_string
 	 *
-	 * @return Document
+	 * @return \Art4\JsonApiClient\Document
 	 *
 	 * @throws ValidationException
 	 */
